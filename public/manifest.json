@@ -1,0 +1,45 @@
+{
+  "name": "Student Biryani · Authentic Dum Biryani",
+  "short_name": "Student Biryani",
+  "description": "Authentic Karachi Dum Biryani, BBQ, sides and chilled drinks delivered hot and fresh.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "dir": "auto",
+  "lang": "en",
+  "categories": ["food", "shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "/brand-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/brand-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Order Biryani",
+      "short_name": "Menu",
+      "description": "Explore hot biryani & BBQ deals",
+      "url": "/?tab=Menu",
+      "icons": [{ "src": "/brand-logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Track Live Order",
+      "short_name": "Orders",
+      "description": "Check current kitchen & rider status",
+      "url": "/?tab=Orders",
+      "icons": [{ "src": "/brand-logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
+
